@@ -1,7 +1,6 @@
 # emacs-config
 
-Emacs Configuration (using Cask)
-(test on : GNU Emacs 24.3.1)
+Emacs 24.3.1 Configuration (using Cask)
 
 # Description
 
