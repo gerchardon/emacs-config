@@ -1,0 +1,6 @@
+.cask
+*.dat
+*.eld
+auto-save-list
+/tramp
+.python-environments/

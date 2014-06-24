@@ -2,6 +2,8 @@
 
 ;;; Commentary:
 
+;;; Code:
+
 
 ;; Proxy Config
 ;; (setq url-proxy-services '(("no_proxy" . "localhost,domain\\.local")
@@ -14,44 +16,15 @@
 (require 'cask "~/.cask/cask.el")
 
 
-;;; Code:
-(setq zconfig-emacsd (file-name-directory load-file-name))
-(setq zconfig-emacs-cmd (concat invocation-directory invocation-name))
-(message (concat "zconfig-emacsd is " zconfig-emacsd))
-(message (concat "zconfig-emacs-cmd is " zconfig-emacs-cmd))
+(load "pre-cask.el")
+(load "customize.el")
+(cask-initialize)
 
-;; (setq files '())
-;(defadvice cask-add-dependency (after cask-add-dependency-message (bundle name &rest args) activate)
-;  (message (concat "cask-add-dependency for " (symbol-name name)))
-;  ;; FIX Load file after (dependency has not be loaded)
-;  (add-to-list 'files (symbol-name name))
-;  ;(zconfig-load (symbol-name name))
-;)
-
-(defun zconfig-load (name)
-  (let ((zconfig-config-file (concat zconfig-emacsd name ".el")))
+;; Load all files with *-config.el
+(mapc 'load-file (directory-files "~/.emacs.d/" t "-config.el$"))
 
 
-    (if (file-exists-p zconfig-config-file)
-        (progn
-          (message (concat "loading " zconfig-config-file "..."))
-          (load-file zconfig-config-file)))))
-
-(zconfig-load "pre-cask")
-;(zconfig-load "customize") 
-(cask-initialize zconfig-emacsd)
-
-;; Load all files
-;; (mapc 'zconfig-load files)
-(mapc 'load-file (directory-files zconfig-emacsd t "-config.el$"))
-
-;(zconfig-load "javascript")
-;(zconfig-load "post-cask")
-
-;; ;; Python Config
-;; (load "~/.emacs.d/python-init.el")
-
-(add-hook 'after-init-hook (lambda () (load "~/.emacs.d/after-init.el")))
+;;(add-hook 'after-init-hook (lambda () (load "~/.emacs.d/after-init.el")))
 ;; (load "~/.emacs.d/after-init.el")
 
 
