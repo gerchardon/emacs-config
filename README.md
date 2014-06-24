@@ -33,6 +33,6 @@ Configure emacs for :
 
 # License
 
-Node Synology is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+Emacs-config is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
 
