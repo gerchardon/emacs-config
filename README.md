@@ -5,11 +5,26 @@ Emacs Configuration (using Cask)
 
 # Description
 
-Configure emacs for JavaScript, NodeJS(todo), python(tood)
+Configure emacs for :
+ * Markdown
+ * Python (TODO)
+ * JavaScript (TODO)
 
-# Requirements
+
+# Module Requirements
+
+## Cask
+
+    git clone https://github.com/cask/cask.git ~/.cask
+	# Add to bashrc
+	export PATH=$PATH:~/.cask/bin
+
+## Python
 
     aptitude install python-virtualenv python-flake8
+
+
+
 
 # Usage
 
