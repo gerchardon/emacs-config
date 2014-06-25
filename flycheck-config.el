@@ -1,10 +1,14 @@
 ;;;
 ;; Use flycheck
 ;;;
+(setq-default flycheck-disabled-checkers '(emacs-lisp-checkdoc))
+
+
+;(setq-default flycheck-enabled-checkers '(javascript-gjslint))
+;(setq-default flycheck-select-checkers '(javascript-gjslint))
+
+
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
-(add-hook 'python-mode-hook
-        (lambda ()
-                (local-set-key (kbd "<f3>") 'jedi:goto-definition)
-		(local-set-key (kbd "<f2>") 'jedi:goto-definition-pop-marker)
-        ))
+(add-hook 'js-mode-hook (lambda ()
+                          (flycheck-select-checker 'javascript-gjslint)))
