@@ -7,8 +7,8 @@ Emacs 24.3.1 Configuration (using Cask)
 Configure emacs for :
  * Cask & Pallet
  * Markdown
- * Python (TODO)
- * JavaScript (TODO)
+ * Python & Python environment auto (TODO)
+ * JavaScript
 
 
 # Module Requirements
@@ -21,7 +21,7 @@ Configure emacs for :
 
 ## Python
 
-    aptitude install python-virtualenv python-flake8
+    aptitude install python-virtualenv
     # On Emacs M-X jedi:install-server
 
 ## Flycheck
@@ -32,6 +32,10 @@ Configure emacs for :
     aptitude install closure-linter
     # Using jshint
     # TODO ....
+
+### Python
+
+    aptitude install python-flake8
 
 
 # Usage
