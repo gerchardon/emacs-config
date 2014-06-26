@@ -22,13 +22,13 @@
 ;;;;;;;;;;;;
 ;; ShortCuts
 ;;;;;;;;;;;;
-(global-set-key (kbd "C-x g") 'magit-status)
 (global-set-key (kbd "C-x k") 'kill-this-buffer)
-(add-hook 'python-mode-hook
-        (lambda ()
-                (local-set-key (kbd "<f3>") 'jedi:goto-definition)
-		(local-set-key (kbd "<f2>") 'jedi:goto-definition-pop-marker)
-        ))
+
+;;;
+;; C-x g => Magit-Status
+;;
+;;
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; GUI Options

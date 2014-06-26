@@ -28,8 +28,6 @@ Configure emacs for :
 
 ### JavaScript
 
-    # Using jslint
-    sudo apt-get install closure-linter
     # Using jshint
     # TODO ....
 

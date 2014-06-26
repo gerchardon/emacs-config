@@ -10,5 +10,5 @@
 
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
-(add-hook 'js-mode-hook (lambda ()
-                          (flycheck-select-checker 'javascript-gjslint)))
+;; (add-hook 'js-mode-hook (lambda ()
+;;                           (flycheck-select-checker 'javascript-gjslint)))

@@ -19,11 +19,3 @@
  '(expand-region-preferred-python-mode (quote python))
  '(python-indent-guess-indent-offset nil)
  '(sp-autoescape-string-quote nil))
-
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(flymake-errline ((t :underline "red")))
- '(flymake-warnline ((t :underline "green"))))
