@@ -1,14 +1,4 @@
-;;; pacakge --- Emacs Config
-
-;;; Commentary:
-
-;;; Code:
-
-
-;; Proxy Config
-(setq url-proxy-services '(("no_proxy" . "localhost,theresis\\.org")
-                           ("http" . "proxy.theresis.org:80")
-			   ("https" . "proxy.theresis.org:3128")))
+;; Emacs Config
 
 (add-to-list 'load-path "~/.emacs.d/")
 
@@ -16,6 +6,7 @@
 (require 'cask "~/.cask/cask.el")
 
 
+(load "proxy.el")
 (load "pre-cask.el")
 (load "customize.el")
 (cask-initialize)
