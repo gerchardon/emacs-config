@@ -16,8 +16,8 @@ Configure emacs for :
 ## Cask
 
     git clone https://github.com/cask/cask.git ~/.cask
-	# Add to bashrc
-	export PATH=$PATH:~/.cask/bin
+    # Add to bashrc
+    export PATH=$PATH:~/.cask/bin
 
 ## Python
 
@@ -39,6 +39,15 @@ Configure emacs for :
     git clone https://github.com/gerchardon/emacs-config.git ~/.emacs.d/
     cask install
     emacs
+
+# Proxy
+
+ * Edit ~/.emacs.d/init.el
+ * Cask Install
+   * Need a squi proxy without password
+ * Python , on emacs jedi:install-server
+   * Launch one time emacs with a proxy
+
 
 # License
 

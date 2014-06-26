@@ -6,9 +6,9 @@
 
 
 ;; Proxy Config
-;; (setq url-proxy-services '(("no_proxy" . "localhost,domain\\.local")
-;;                            ("http" . "<proxy>:80")
-;; 			   ("https" . "<proxy>:3128")))
+(setq url-proxy-services '(("no_proxy" . "localhost,theresis\\.org")
+                           ("http" . "proxy.theresis.org:80")
+			   ("https" . "proxy.theresis.org:3128")))
 
 (add-to-list 'load-path "~/.emacs.d/")
 
