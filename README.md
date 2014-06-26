@@ -21,7 +21,7 @@ Configure emacs for :
 
 ## Python
 
-    aptitude install python-virtualenv
+    sudo apt-get install python-virtualenv
     # On Emacs M-X jedi:install-server
 
 ## Flycheck
@@ -29,13 +29,13 @@ Configure emacs for :
 ### JavaScript
 
     # Using jslint
-    aptitude install closure-linter
+    sudo apt-get install closure-linter
     # Using jshint
     # TODO ....
 
 ### Python
 
-    aptitude install python-flake8
+    sudo apt-get install python-flake8
 
 
 # Usage
