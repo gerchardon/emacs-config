@@ -47,8 +47,6 @@ Configure emacs for :
 # Proxy
 
  * Edit ~/.emacs.d/init.el
- * Cask Install
-   * Need a squi proxy without password
  * Python , on emacs jedi:install-server
    * Launch one time emacs with a proxy
 
