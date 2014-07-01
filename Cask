@@ -1,7 +1,6 @@
 (source melpa)
 
 (depends-on "ac-helm")
-(depends-on "ac-js2")
 (depends-on "auto-complete")
 (depends-on "autopair")
 (depends-on "cask")
@@ -34,7 +33,6 @@
 (depends-on "s")
 (depends-on "shut-up")
 (depends-on "simple-httpd")
-(depends-on "skewer-mode")
 (depends-on "smartparens")
 (depends-on "solarized-theme")
 (depends-on "yaml-mode")

@@ -29,7 +29,7 @@ Configure emacs for :
 ### JavaScript
 
     # Using jshint
-    # TODO ....
+    sudo npm install jshint -g
 
 ### Python
 
