@@ -30,6 +30,7 @@ Configure emacs for :
 
     # Using jshint
     sudo npm install jshint -g
+    sudo npm install tern -g
 
 ### Python
 
