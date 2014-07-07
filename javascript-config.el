@@ -12,3 +12,4 @@
 (global-auto-complete-mode t)
 ;(add-hook 'js-mode 'auto-complete-mode)
 
+(add-hook 'js-mode-hook 'turn-on-fic-mode)
