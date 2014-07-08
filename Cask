@@ -11,6 +11,7 @@
 (depends-on "epc")
 (depends-on "epl")
 (depends-on "f")
+(depends-on "fic-mode")
 (depends-on "flycheck")
 (depends-on "git-commit-mode")
 (depends-on "git-rebase-mode")
