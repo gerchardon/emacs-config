@@ -13,3 +13,6 @@
 ;(add-hook 'js-mode 'auto-complete-mode)
 
 (add-hook 'js-mode-hook 'turn-on-fic-mode)
+
+;; Start autopair to complete brackets and quotes
+(add-hook 'js-mode-hook 'autopair-mode)
