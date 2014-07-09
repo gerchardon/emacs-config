@@ -11,6 +11,9 @@
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'forward)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
