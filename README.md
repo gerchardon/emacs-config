@@ -10,37 +10,36 @@ Configure emacs for :
  * Python & Python environment auto (TODO)
  * JavaScript
 
-
-# Module Requirements
+# Requirements
 
 ## Cask
 
     git clone https://github.com/cask/cask.git ~/.cask
-    # Add to bashrc
+    # Add to ~/.bashrc or ~/.bash_aliases
     export PATH=$PATH:~/.cask/bin
 
-## Python
+# Language Deps
 
-    sudo apt-get install python-virtualenv
-    # On Emacs M-X jedi:install-server
+## JavaScript
 
-## Flycheck
-
-### JavaScript
-
+    # Install last nodejs (ubuntu)
+    sudo apt-get install python-software-properties
+    sudo apt-add-repository ppa:chris-lea/node.js
+    sudo apt-get update
+    sudo apt-get install nodejs
     # Using jshint
     sudo npm install jshint -g
     sudo npm install tern -g
 
-### Python
+## Python
 
-    sudo apt-get install python-flake8
-
+    sudo apt-get install python-flake8 python-virtualenv
+    # On Emacs M-X jedi:install-server
 
 # Usage
 
     git clone https://github.com/gerchardon/emacs-config.git ~/.emacs.d/
-    cask install
+    cd ~/.emacs.d/; cask install
     emacs
 
 # Proxy
@@ -53,5 +52,3 @@ Configure emacs for :
 # License
 
 Emacs-config is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
-
-
