@@ -2,6 +2,7 @@
 
 (depends-on "ac-helm")
 (depends-on "auto-complete")
+(depends-on "auto-yasnippet")
 (depends-on "autopair")
 (depends-on "cask")
 (depends-on "concurrent")

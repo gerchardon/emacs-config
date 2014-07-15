@@ -9,9 +9,6 @@
  '(js3-lazy-semicolons t)
  '(js3-paren-indent-offset 4))
 
-(global-auto-complete-mode t)
-;(add-hook 'js-mode 'auto-complete-mode)
-
 (add-hook 'js-mode-hook 'turn-on-fic-mode)
 
 ;; Start autopair to complete brackets and quotes
