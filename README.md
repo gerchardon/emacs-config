@@ -49,6 +49,14 @@ Configure emacs for :
    * Launch one time emacs with a proxy
 
 
+# Links
+
+Inspire by :
+
+
+http://emacsrocks.com/
+https://github.com/magnars/.emacs.d
+
 # License
 
 Emacs-config is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
