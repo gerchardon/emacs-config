@@ -53,9 +53,8 @@ Configure emacs for :
 
 Inspire by :
 
-
-http://emacsrocks.com/
-https://github.com/magnars/.emacs.d
+ * http://emacsrocks.com/
+ * https://github.com/magnars/.emacs.d
 
 # License
 
