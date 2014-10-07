@@ -7,9 +7,6 @@
 (setq inhibit-startup-message t)
 (setq make-backup-files nil)
 
-;; Line number
-(global-linum-mode t)
-
 (setq-default indent-tabs-mode nil)
 
 (defalias 'yes-or-no-p 'y-or-n-p)
