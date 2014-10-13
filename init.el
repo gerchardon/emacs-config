@@ -15,10 +15,6 @@
 (mapc 'load-file (directory-files "~/.emacs.d/" t "-config.el$"))
 
 
-;;(add-hook 'after-init-hook (lambda () (load "~/.emacs.d/after-init.el")))
-;; (load "~/.emacs.d/after-init.el")
-
-
 ;;;;;;;;;;;;
 ;; ShortCuts
 ;;;;;;;;;;;;
