@@ -48,7 +48,6 @@
  '(js3-lazy-semicolons t)
  '(js3-paren-indent-offset 4 t)
  '(python-indent-guess-indent-offset nil)
- '(solarized-distinct-fringe-background t)
  '(solarized-high-contrast-mode-line t)
  '(solarized-use-less-bold t)
  '(solarized-use-more-italic t)
