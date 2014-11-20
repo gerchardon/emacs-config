@@ -47,6 +47,7 @@
 (depends-on "projectile")
 (depends-on "python-environment")
 (depends-on "s")
+(depends-on "scss-mode")
 (depends-on "shut-up")
 (depends-on "simple-httpd")
 (depends-on "skewer-mode")
