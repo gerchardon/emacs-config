@@ -1,6 +1,6 @@
 ;; Emacs Config
 
-(add-to-list 'load-path "~/.emacs.d/")
+(add-to-list 'load-path ".emacs.d")
 
 ;; Init All Plugin with Cask & Pallet
 (require 'cask "~/.cask/cask.el")
