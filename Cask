@@ -30,7 +30,6 @@
 (depends-on "helm")
 (depends-on "helm-git-grep")
 (depends-on "helm-projectile")
-(depends-on "helm-projectile-all")
 (depends-on "java-snippets")
 (depends-on "javadoc-lookup")
 (depends-on "javaimp")
