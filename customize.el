@@ -62,6 +62,9 @@
  '(expand-region-preferred-python-mode (quote python))
  '(js3-lazy-semicolons t)
  '(js3-paren-indent-offset 2 t)
+ '(package-selected-packages
+   (quote
+    (ac-js2 auto-yasnippet autopair coffee-mode fic-mode flycheck flymake-coffee flymake-easy fringe-helper git-gutter go-projectile groovy-mode helm-git-grep helm-projectile java-snippets javadoc-lookup javaimp jedi js2-refactor less-css-mode markdown-mode+ markdown-toc multiple-cursors projectile python-environment skewer-mode smart-mode-line-powerline-theme smartparens solarized-theme tern-auto-complete yaml-mode yasnippet pallet magit marmalade-client)))
  '(python-indent-guess-indent-offset nil)
  '(solarized-high-contrast-mode-line t)
  '(solarized-use-less-bold t)
