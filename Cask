@@ -1,3 +1,4 @@
+(source "marmalade" "https://marmalade-repo.org/packages/")
 (source gnu)
 (source melpa)
 
@@ -20,9 +21,7 @@
 (depends-on "flymake-coffee")
 (depends-on "flymake-easy")
 (depends-on "fringe-helper")
-(depends-on "git-commit-mode")
 (depends-on "git-gutter")
-(depends-on "git-rebase-mode")
 (depends-on "go-eldoc")
 (depends-on "go-mode")
 (depends-on "go-projectile")
