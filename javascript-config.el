@@ -11,3 +11,9 @@
 
 ;; Start autopair to complete brackets and quotes
 (add-hook 'js-mode-hook 'autopair-mode)
+
+
+(defun flycheck-disable-on-temp-buffers ()
+   (unless (and buffer-file-name (file-exists-p buffer-file-name) (flycheck-mode -1))))
+
+(add-hook 'js-mode-hook 'flycheck-disable-on-temp-buffers)
