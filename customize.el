@@ -64,7 +64,7 @@
  '(js3-paren-indent-offset 2 t)
  '(package-selected-packages
    (quote
-    (ac-js2 auto-yasnippet autopair coffee-mode fic-mode flycheck flymake-coffee flymake-easy fringe-helper git-gutter go-projectile groovy-mode helm-git-grep helm-projectile java-snippets javadoc-lookup javaimp jedi js2-refactor less-css-mode markdown-mode+ markdown-toc multiple-cursors projectile python-environment skewer-mode smart-mode-line-powerline-theme smartparens solarized-theme tern-auto-complete yaml-mode yasnippet pallet magit marmalade-client)))
+    (async coffee-mode flycheck git-commit git-gutter go-eldoc go-mode go-projectile groovy-mode helm helm-core helm-projectile js2-mode js2-refactor magit magit-popup markdown-mode projectile skewer-mode solarized-theme tern with-editor yaml-mode yasnippet package-build shut-up epl git commander f dash s)))
  '(python-indent-guess-indent-offset nil)
  '(solarized-high-contrast-mode-line t)
  '(solarized-use-less-bold t)
