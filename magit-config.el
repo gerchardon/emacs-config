@@ -8,6 +8,10 @@
 (setq magit-auto-revert-mode nil)
 (setq magit-last-seen-setup-instructions "1.4.0")
 
+;; Magit Status in same buffer
+;; (setq magit-status-buffer-switch-function 'switch-to-buffer)
+(add-to-list 'same-window-regexps "\*magit: .*\*")
+
 (global-set-key (kbd "C-x g") 'magit-status)
 
 ;; Enable gerrit
