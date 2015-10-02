@@ -15,6 +15,7 @@
 (depends-on "deferred")
 (depends-on "epc")
 (depends-on "epl")
+(depends-on "exec-path-from-shell")
 (depends-on "f")
 (depends-on "fic-mode")
 (depends-on "flycheck")
