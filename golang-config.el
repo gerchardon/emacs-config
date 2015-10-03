@@ -12,8 +12,9 @@
 		;; (local-set-key (kbd "<f2>") 'godef)
         ))
 
-;; go get github.com/tools/godep
+;; go get -u github.com/tools/godep
 ;; go get -u github.com/nsf/gocode
+;; go get -u github.com/rogpeppe/godef
 ;; gocode set autobuild true
 ;; gocode set lib-path $GOPATH/src/
 (require 'go-autocomplete)
