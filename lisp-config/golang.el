@@ -6,10 +6,16 @@
 ;;             (add-to-list 'ac-sources 'ac-source-go)
 ;;             (call-process "gocode" nil nil nil "-s")))
 
+(defun go-run-buffer()
+  (interactive)
+  (async-shell-command (concat "go run " (buffer-name))))
+
 (add-hook 'go-mode-hook
         (lambda ()
-                (local-set-key (kbd "<f3>") 'godef-jump)
-		;; (local-set-key (kbd "<f2>") 'godef)
+          (local-set-key (kbd "<f3>") 'godef-jump)
+          (local-set-key (kbd "<f8>") 'go-run-buffer)
+          (local-set-key (kbd "<f1>") 'go-remove-unused-imports)
+          (add-hook 'before-save-hook #'gofmt-before-save)
         ))
 
 ;; go get -u github.com/tools/godep

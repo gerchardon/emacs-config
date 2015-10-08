@@ -4,3 +4,4 @@
 (setq blink-matching-paren-on-screen t)
 (setq show-paren-style 'expression)
 (setq blink-matching-paren-dont-ignore-comments t)
+(smartparens-global-mode)
