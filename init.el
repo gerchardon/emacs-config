@@ -1,8 +1,6 @@
 ;; Emacs Config
 
-;; Init All Plugin with Cask & Pallet
-
-;;;; Add lisp directory to path
+;; Add lisp directory to path
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 
 (package-initialize)
@@ -13,6 +11,8 @@
 (load-library "proxy.el")
 (load-library "pre-cask.el")
 (load-library "customize.el")
+
+;; Init All Plugin with Cask & Pallet
 (cask-initialize)
 
 ;; Load all files with *.el
