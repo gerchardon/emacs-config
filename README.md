@@ -8,7 +8,8 @@ Configure emacs for :
  * Cask & Pallet
  * Markdown
  * Python & Python environment auto (TODO)
- * JavaScript
+ * JavaScript (NodeJS, RequireJS, ...)
+ * GoLang
 
 # Requirements
 
