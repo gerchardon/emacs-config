@@ -11,15 +11,23 @@ Configure emacs for :
  * JavaScript (NodeJS, RequireJS, ...)
  * GoLang
 
-# Requirements
+# Usage
 
-## Cask
+## Install Cask
 
     git clone https://github.com/cask/cask.git ~/.cask
     # Add to ~/.bashrc or ~/.bash_aliases
     export PATH=$PATH:~/.cask/bin
 
-# Language Deps
+
+## Configure Emacs
+
+    git clone https://github.com/gerchardon/emacs-config.git ~/.emacs.d/
+    cd ~/.emacs.d/; cask install
+    emacs
+
+
+# Language Configuration
 
 ## JavaScript
 
@@ -37,15 +45,10 @@ Configure emacs for :
     sudo apt-get install python-flake8 python-virtualenv
     # On Emacs M-X jedi:install-server
 
-# Usage
-
-    git clone https://github.com/gerchardon/emacs-config.git ~/.emacs.d/
-    cd ~/.emacs.d/; cask install
-    emacs
 
 # Proxy
 
- * Edit ~/.emacs.d/init.el
+ * Launch cask with a proxy (cask can't handle proxy user:password)
  * Python , on emacs jedi:install-server
    * Launch one time emacs with a proxy
 
