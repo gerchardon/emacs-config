@@ -20,3 +20,8 @@
 (require 'go-autocomplete)
 (require 'auto-complete-config)
 (ac-config-default)
+
+(setq-default
+  tab-width 2
+  standard-indent 2
+  )
