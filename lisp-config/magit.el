@@ -8,13 +8,10 @@
 (setq magit-last-seen-setup-instructions "1.4.0")
 
 ;; Magit Status in same buffer
-;; (setq magit-status-buffer-switch-function 'switch-to-buffer)
 (add-to-list 'same-window-regexps "\*magit: .*\*")
 
 (global-set-key (kbd "C-x g") 'magit-status)
+(global-set-key (kbd "<f12>") 'magit-status)
 
-;; Enable gerrit
-;; FIXME: bug with gerrit in https mode
-;; (require 'magit-gerrit)
-;; (setq-default magit-gerrit-remote "gerrit")
-;; (setq magit-gerrit-remote "gerrit")
+(require 'magit)
+(magit-define-popup-switch 'magit-log-popup "nm" "No merges" "--no-merges")

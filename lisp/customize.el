@@ -62,9 +62,10 @@
  '(expand-region-preferred-python-mode (quote python))
  '(js3-lazy-semicolons t)
  '(js3-paren-indent-offset 2 t)
- '(package-selected-packages
+ '(magit-log-arguments
    (quote
-    (async coffee-mode flycheck git-commit git-gutter go-eldoc go-mode go-projectile groovy-mode helm helm-core helm-projectile js2-mode js2-refactor magit magit-popup markdown-mode projectile skewer-mode solarized-theme tern with-editor yaml-mode yasnippet package-build shut-up epl git commander f dash s)))
+    ("--graph" "--color" "--show-signature" "++header" "--no-merges" "-n100")))
+ '(package-selected-packages (quote (package-build shut-up epl git commander f dash s)))
  '(python-indent-guess-indent-offset nil)
  '(solarized-high-contrast-mode-line t)
  '(solarized-use-less-bold t)
