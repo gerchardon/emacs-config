@@ -64,7 +64,7 @@
  '(js3-paren-indent-offset 2 t)
  '(magit-log-arguments
    (quote
-    ("--graph" "--color" "--show-signature" "++header" "--no-merges" "-n100")))
+    ("--graph" "--color" "--show-signature" "--stat" "--no-merges" "-n100")))
  '(package-selected-packages (quote (package-build shut-up epl git commander f dash s)))
  '(python-indent-guess-indent-offset nil)
  '(solarized-high-contrast-mode-line t)
