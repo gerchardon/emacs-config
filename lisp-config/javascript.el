@@ -17,3 +17,9 @@
    (unless (and buffer-file-name (file-exists-p buffer-file-name) (flycheck-mode -1))))
 
 (add-hook 'js-mode-hook 'flycheck-disable-on-temp-buffers)
+
+(defun node-run-buffer()
+  (interactive)
+  (async-shell-command (concat "node " (buffer-name))))
+(add-hook 'js-mode-hook (progn
+                          (local-set-key (kbd "<f8>") 'node-run-buffer)))
