@@ -21,5 +21,5 @@
 (defun node-run-buffer()
   (interactive)
   (async-shell-command (concat "node " (buffer-name))))
-(add-hook 'js-mode-hook (progn
+(add-hook 'js-mode-hook (lambda()
                           (local-set-key (kbd "<f8>") 'node-run-buffer)))
