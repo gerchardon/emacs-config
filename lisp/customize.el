@@ -15,6 +15,9 @@
 (setq uniquify-buffer-name-style 'forward)
 
 
+;; disable help popup in modeline
+(setq show-help-function nil)
+
 ;;
 ;; Next and previous buffer ignore *...* buffer
 ;;
