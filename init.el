@@ -10,6 +10,8 @@
 
 (package-initialize)
 
+(require 'benchmark-init)
+
 (require 'cask "~/.cask/cask.el")
 
 ;; Recompile .emacs.d/lisp & .emacs.d/lisp-config
