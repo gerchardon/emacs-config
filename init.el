@@ -19,7 +19,6 @@
 (byte-recompile-directory "~/.emacs.d/lisp-config" 0)
 
 
-(load "proxy")
 (load "pre-cask")
 (load "customize")
 
