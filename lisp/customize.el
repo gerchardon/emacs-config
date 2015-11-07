@@ -71,8 +71,6 @@
  '(package-selected-packages (quote (package-build shut-up epl git commander f dash s)))
  '(python-indent-guess-indent-offset nil)
  '(solarized-high-contrast-mode-line t)
- '(solarized-use-less-bold t)
- '(solarized-use-more-italic t)
  '(sp-autoescape-string-quote nil))
 
 (custom-set-faces
