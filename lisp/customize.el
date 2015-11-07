@@ -18,6 +18,12 @@
 ;; disable help popup in modeline
 (setq show-help-function nil)
 
+(require 'dired-x)
+(setq-default dired-omit-files-p t) ; this is buffer-local variable
+(setq dired-omit-files
+    (concat dired-omit-files "\\|^\\..+$\\|\\.pyc$|\\.elc$"))
+(setq dired-recursive-deletes 'always)
+
 ;;
 ;; Next and previous buffer ignore *...* buffer
 ;;
