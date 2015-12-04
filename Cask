@@ -1,6 +1,6 @@
-(source "marmalade" "https://marmalade-repo.org/packages/")
-(source gnu)
-(source melpa)
+(source "melpa" "http://melpa.milkbox.net/packages/")
+(source "gnu" "http://elpa.gnu.org/packages/")
+(source "marmalade" "http://marmalade-repo.org/packages/")
 
 (depends-on "ac-js2")
 (depends-on "async")
@@ -20,8 +20,6 @@
 (depends-on "f")
 (depends-on "fic-mode")
 (depends-on "flycheck")
-(depends-on "flymake-coffee")
-(depends-on "flymake-easy")
 (depends-on "fringe-helper")
 (depends-on "git-commit")
 (depends-on "git-gutter")
